@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #232942;
+  min-height: 100vh;
+} 
+
+@keyframes epic-bg-move {
+  0% {
+    background-position: 0% 50%;
+    background: linear-gradient(135deg, #232942 0%, #5a4fff 100%);
+  }
+  50% {
+    background-position: 100% 50%;
+    background: linear-gradient(225deg, #5a4fff 0%, #ff5afd 100%);
+  }
+  100% {
+    background-position: 0% 50%;
+    background: linear-gradient(135deg, #232942 0%, #5a4fff 100%);
+  }
+}
+
+.epic-bg {
+  background: rgba(40,40,60,0.93);
+  border-radius: 2em;
+  box-shadow: 0 0 24px #5a4fff88, 0 0 64px #ff5afd22;
+  padding: 2em 1.5em;
+  margin: 2em auto;
+  max-width: 900px;
+  width: 96vw;
+  transition: box-shadow 0.3s;
+}
+
+h1, h2, h3 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.4em;
+  text-shadow: none;
+  letter-spacing: normal;
+}
+
+.shape-btn, .captcha-icon, button {
+  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(90deg, #5a4fff 0%, #ff5afd 100%);
+  color: #fff;
+  border: none;
+  border-radius: 1.2em;
+  padding: 0.9em 2.1em;
+  text-decoration: none;
+  box-shadow: 0 0 12px #5a4fff88, 0 0 32px #ff5afd44;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.5em;
+  cursor: pointer;
+  outline: none;
+}
+.shape-btn:hover, .captcha-icon:hover, button:hover {
+  background: linear-gradient(90deg, #ff5afd 0%, #5a4fff 100%);
+  transform: scale(1.06) rotate(-2deg);
+  box-shadow: 0 0 32px #ff5afd99, 0 0 48px #5a4fff99;
+}
+
+.epic-3d {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.epic-footer {
+  background: rgba(30, 30, 40, 0.93);
+  color: #eee;
+  text-align: center;
+  padding: 1.5rem 0 1.2rem 0;
+  font-size: 1.1rem;
+  border-top: 2px solid #444;
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 -2px 24px 0 #232942cc;
+  width: 96vw;
+  max-width: 900px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.bemter-footer {
+  color: #fff;
+  background: linear-gradient(90deg, #232942 70%, #5a4fff 100%);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.2em 1.2em;
+  border-radius: 1.5em;
+  letter-spacing: 0.09em;
+  box-shadow: 0 0 18px 2px #5a4fff88, 0 0 4px #232942;
+  margin: 0.4em 0 0.1em 0;
+  text-shadow: 0 0 8px #5a4fff, 0 0 2px #232942;
+}
+
+@keyframes epicMsgAnim {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 40%) scale(0.7) rotate(-8deg);
+  }
+  15% {
+    opacity: 1;
+    transform: translate(-50%, -30%) scale(1.1) rotate(3deg);
+  }
+  70% {
+    opacity: 1;
+    transform: translate(-50%, -60%) scale(1) rotate(-2deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -110%) scale(0.8) rotate(7deg);
+  }
+}
+
+.header {
+  background: rgba(40, 40, 60, 0.9);
+  padding: 1.5rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid #444;
+}
+
+.shape-selector {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.shape-btn {
+  background: #333;
+  color: #fff;
+  border: 2px solid #888;
+  border-radius: 1.2rem;
+  padding: 0.7rem 1.6rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s;
+}
+.shape-btn.selected, .shape-btn:hover {
+  background: #5a4fff;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.main-3d {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

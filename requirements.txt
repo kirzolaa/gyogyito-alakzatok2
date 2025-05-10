@@ -1,0 +1,2 @@
+# For venv environment management (Python, for completeness)
+# No Python dependencies needed for a React project, but included as per user rules
