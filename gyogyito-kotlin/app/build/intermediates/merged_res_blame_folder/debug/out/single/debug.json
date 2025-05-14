@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/build/intermediates/res/merged/debug/layout_activity_captcha_battle.xml.flat",
+        "source": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/src/main/res/layout/activity_captcha_battle.xml"
+    },
+    {
+        "merged": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/build/intermediates/res/merged/debug/drawable_epic_background.xml.flat",
+        "source": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/src/main/res/drawable/epic_background.xml"
+    },
+    {
+        "merged": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/media/zoli/Új kötet1/new/gyogyito-alakzatok2/gyogyito-kotlin/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
