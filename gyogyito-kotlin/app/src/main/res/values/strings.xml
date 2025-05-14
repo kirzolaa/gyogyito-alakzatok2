@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gyógyitó Alakzatok</string>
+    <string name="app_title">Gyógyitó alakzatok</string>
+    <string name="captcha_battle">Epic Captcha Battle</string>
+    <string name="captcha_subtitle">Gyógyitó Kapcsák</string>
+    <string name="select_captcha_items">Válaszd ki a képen látható dolgokat:</string>
+    <string name="verify">Ellenőrzés</string>
+    <string name="back_to_main">Vissza a főoldalra</string>
+    <string name="verification_success">Sikeres ellenőrzés!</string>
+    <string name="verification_failure">Sikertelen ellenőrzés!</string>
+</resources>
