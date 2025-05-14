@@ -1,5 +1,6 @@
 {
-  "appId": "com.example.app",
-  "appName": "gyogyito-alakzatok",
-  "webDir": "dist"
+  "appId": "com.example.gyogyitoalakzatok",
+  "appName": "Gyogyito Alakzatok",
+  "webDir": "dist",
+  "bundledWebRuntime": false
 }
